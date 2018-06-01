@@ -205,8 +205,17 @@
     <Compile Include="Migrations\201805312052588_Goal.Designer.cs">
       <DependentUpon>201805312052588_Goal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806011647577_CreateGoalTable.cs" />
+    <Compile Include="Migrations\201806011647577_CreateGoalTable.Designer.cs">
+      <DependentUpon>201806011647577_CreateGoalTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806012121033_OverrideConventionsForGoals.cs" />
+    <Compile Include="Migrations\201806012121033_OverrideConventionsForGoals.Designer.cs">
+      <DependentUpon>201806012121033_OverrideConventionsForGoals.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Goal.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -291,6 +300,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805312052588_Goal.resx">
       <DependentUpon>201805312052588_Goal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806011647577_CreateGoalTable.resx">
+      <DependentUpon>201806011647577_CreateGoalTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806012121033_OverrideConventionsForGoals.resx">
+      <DependentUpon>201806012121033_OverrideConventionsForGoals.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

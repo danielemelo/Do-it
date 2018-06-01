@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Do-it",
+    "\\Do-it\\Migrations",
+    "\\Do-it\\Models"
   ],
+  "SelectedNode": "\\Do-it\\Migrations\\201805312052588_Goal.cs",
   "PreviewInSolutionExplorer": false
 }
