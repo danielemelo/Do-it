@@ -7,13 +7,13 @@ namespace Do_it.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class CreateGoalTable : IMigrationMetadata
+    public sealed partial class PopulateColorTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateGoalTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateColorTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201806011647577_CreateGoalTable"; }
+            get { return "201806031238473_PopulateColorTable"; }
         }
         
         string IMigrationMetadata.Source

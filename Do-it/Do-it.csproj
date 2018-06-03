@@ -205,16 +205,22 @@
     <Compile Include="Migrations\201805312052588_Goal.Designer.cs">
       <DependentUpon>201805312052588_Goal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201806011647577_CreateGoalTable.cs" />
-    <Compile Include="Migrations\201806011647577_CreateGoalTable.Designer.cs">
-      <DependentUpon>201806011647577_CreateGoalTable.cs</DependentUpon>
+    <Compile Include="Migrations\201806031230159_CreateGoalTable.cs" />
+    <Compile Include="Migrations\201806031230159_CreateGoalTable.Designer.cs">
+      <DependentUpon>201806031230159_CreateGoalTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201806012121033_OverrideConventionsForGoals.cs" />
-    <Compile Include="Migrations\201806012121033_OverrideConventionsForGoals.Designer.cs">
-      <DependentUpon>201806012121033_OverrideConventionsForGoals.cs</DependentUpon>
+    <Compile Include="Migrations\201806031235260_OverrideConventionsForColor.cs" />
+    <Compile Include="Migrations\201806031235260_OverrideConventionsForColor.Designer.cs">
+      <DependentUpon>201806031235260_OverrideConventionsForColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806031238473_PopulateColorTable.cs" />
+    <Compile Include="Migrations\201806031238473_PopulateColorTable.Designer.cs">
+      <DependentUpon>201806031238473_PopulateColorTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Color.cs" />
     <Compile Include="Models\Goal.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -301,11 +307,14 @@
     <EmbeddedResource Include="Migrations\201805312052588_Goal.resx">
       <DependentUpon>201805312052588_Goal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201806011647577_CreateGoalTable.resx">
-      <DependentUpon>201806011647577_CreateGoalTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806031230159_CreateGoalTable.resx">
+      <DependentUpon>201806031230159_CreateGoalTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201806012121033_OverrideConventionsForGoals.resx">
-      <DependentUpon>201806012121033_OverrideConventionsForGoals.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201806031235260_OverrideConventionsForColor.resx">
+      <DependentUpon>201806031235260_OverrideConventionsForColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806031238473_PopulateColorTable.resx">
+      <DependentUpon>201806031238473_PopulateColorTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

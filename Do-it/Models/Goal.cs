@@ -15,5 +15,9 @@ namespace Do_it.Models
         [Required]
         [StringLength(255)]
         public string Title { get; set; }
+
+        [Required]
+        public Color Color { get; set; }
+
     }
 }

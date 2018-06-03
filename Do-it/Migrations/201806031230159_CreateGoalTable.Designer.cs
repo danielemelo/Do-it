@@ -7,13 +7,13 @@ namespace Do_it.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class OverrideConventionsForGoals : IMigrationMetadata
+    public sealed partial class CreateGoalTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(OverrideConventionsForGoals));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateGoalTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201806012121033_OverrideConventionsForGoals"; }
+            get { return "201806031230159_CreateGoalTable"; }
         }
         
         string IMigrationMetadata.Source
